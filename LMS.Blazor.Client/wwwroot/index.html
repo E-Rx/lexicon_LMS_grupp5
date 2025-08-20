@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexiTech LMS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/app.css" rel="stylesheet" />
+
+    <link href="LMS.Blazor.Client.styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="d-flex justify-content-center align-items-center vh-100">
+            <div class="text-center">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="mt-3 text-muted">
+                    <i class="fas fa-graduation-cap me-2"></i>
+                    Loading LexiTech LMS...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error message if Blazor fails to start -->
+    <div id="blazor-error-ui" class="alert alert-danger position-fixed top-0 start-50 translate-middle-x mt-3" style="z-index: 9999; display: none;">
+        <div class="d-flex align-items-center">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            <div>
+                <strong>An unexpected error occurred.</strong>
+                <div class="mt-1">
+                    <a href="#" class="alert-link me-3" onclick="location.reload()">Reload</a>
+                    <a href="#" class="alert-link text-decoration-none" onclick="document.getElementById('blazor-error-ui').style.display='none'">✕</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+
+ 
+</body>
+</html>
