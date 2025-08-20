@@ -1,4 +1,6 @@
 ﻿@page "/"
+@inject NavigationManager NavigationManager
+
 
 <PageTitle>ExiTech</PageTitle>
 
@@ -9,6 +11,9 @@
         <p>All your courses, schedules, and submissions in one simple place – designed for both students and teachers.</p>
         <p>A full-stack platform that centralizes course materials, schedules, and assignments while keeping the interface intuitive and easy to use. 
             Empower teachers to manage classes effortlessly and provide students with a clear, engaging learning experience.</p>
+        <NavLink class="btn btn-primary mt-3" href="account/login" Match="NavLinkMatch.All">
+            Log in
+        </NavLink>
     </div>
 </div>
 

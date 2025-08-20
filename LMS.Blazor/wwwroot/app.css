@@ -97,7 +97,7 @@ h1:focus {
     }
 
 /* responsive mobile */
-@media (max-width:1320px) {
+@media (max-width:1350px) {
     .home-hero {
         background-image: url('/images/landingPage-bg.png');
         background-size: cover;
